@@ -1,0 +1,22 @@
+Level of difficulty
+Medium
+
+Objectives
+Familiarize the student with:
+
+Working with files
+Reading from a file
+Simple data processing
+Loop over file content
+Scenario
+Write a program that counts the metrics of a file:
+
+Number of all characters
+Number of whitespaces
+Number of lines
+Number of all lower-case letters
+You can (for now, to simplify your task, of course) assume constant file names. To speed up your programming, you can test your program on its source code. First, open a file in read mode. After that, character by character, read the file and count the numbers asked. Remember to close the file.
+
+Note: in a real program, it's important to check whether all the files needed actually exist and that you can read their contents. In our program, you should at least check that the files have been successfully opened.
+
+If the fopen function fails, then print the message Error opening file. and end the program. There's only one instance of output from your program - your output can vary, depending on the file contents.
